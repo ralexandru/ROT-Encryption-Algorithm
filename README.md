@@ -9,6 +9,11 @@ Doing this for each letter of a text, we will get an encrypted message, as we ca
 The above picture shows how the "HELLO WORLD" message looks encrypted using ROT13.
 Using this repository, you can encrypt and decrypt messages using any kind of ROT algorithm(1,2,3,...,n), and you can also check what type of ROT Algorithm was used in order to encrypt a message.
 <h2>Usage</h2>
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 1. First, you need to create an object of the RotAlgorithm class passing a parameter of type int that represents the type of ROT Algorithm you would like to use. <br/>
 '''
 RotAlgorithm rot13 = new RotAlgorithm(); // 13 is the default value, so no need to pass any arguments
