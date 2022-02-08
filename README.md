@@ -5,7 +5,7 @@ Using the RotAlgorithm class you can encrypt/decrypt a text using any kind of RO
 ROT Algorithm is an encryption algorithm used to cypher messages. This algorithm is rotating each letter from a message to the right to a fixed number of positions.<br/>
 For example: ROT13 Algorithm: a -> n , ROT3 ALGORITHM: a -> d , ROT5 ALGORITHM: a -> f<br/>
 Doing this for each letter of a text, we will get an encrypted message, as we can see in the picture below.<br/>
-<img url="https://i.imgur.com/11YYBkh.png" align="center"/><br/>
+<img src="https://i.imgur.com/11YYBkh.png" align="center"/><br/>
 The above picture shows how the "HELLO WORLD" message looks encrypted using ROT13.
 Using this repository, you can encrypt and decrypt messages using any kind of ROT algorithm(1,2,3,...,n), and you can also check what type of ROT Algorithm was used in order to encrypt a message.
 <h2>Usage</h2>
